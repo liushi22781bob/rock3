@@ -7,9 +7,9 @@ $("#make-red-element").click(function() {
   elementContainer.append(newElement)
 })
 
-$("#make-blue-element").click(function() {  
+$("#make-green-element").click(function() {  
   var newElement = $("<div>Hi!</div>")
-  newElement.css({background: "red"})
+  newElement.css({background: "green"})
 
   elementContainer.append(newElement)
 })
