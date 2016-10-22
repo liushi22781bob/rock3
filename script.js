@@ -1,7 +1,7 @@
 var elementContainer = $("#generated-element-container")
 
 $("#make-red-element").click(function() {  
-  var newElement = $("<div>Hi!</div>")
+  var newElement = $("<div>Hello!</div>")
   newElement.css({background: "red"})
 
   elementContainer.append(newElement)
